@@ -30,6 +30,6 @@ The [official guide by MathWorks](https://www.mathworks.com/help/compiler/create
 5. Before **Package**, Recommend to choose "Runtime downloaded from web", thus the distribution file could be rather small.
 
 6. To run the standalone application on Mac OS X, first, in the terminal, change dir to the folder where this application is installed. If everything before was done as default, it should be `cd /Applications/magicsquare`. Second, run `export DYLD_LIBRARY_PATH=MCR_ROOT/v92/runtime/maci64:MCR_ROOT/v92/sys/os/maci64:MCR_ROOT/v92/bin/maci64` 
-==**NOTE: Below is the most important**==
-⋅⋅* Assure no illegal signs in the code, especially that no spaces around "="; 
-⋅⋅* Replace "MCR_ROOT/v92" with the path to the dir where MATLAB compiler runtime (MCR) is installed. For me, it's "/Applications/MATLAB/MATLAB_Runtime/v94". "v92" stands for version 9.2, "v94" stands for version 9.4.
+> ==**NOTE: Below is the most important**==
+>⋅⋅* Assure no illegal signs in the code, especially that no spaces around "="; 
+>⋅⋅* Replace "MCR_ROOT/v92" with the path to the dir where MATLAB compiler runtime (MCR) is installed. For me, it's "/Applications/MATLAB/MATLAB_Runtime/v94". "v92" stands for version 9.2, "v94" stands for version 9.4.
