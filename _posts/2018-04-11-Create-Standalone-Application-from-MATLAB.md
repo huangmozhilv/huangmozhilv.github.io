@@ -33,5 +33,6 @@ The [official guide by MathWorks](https://www.mathworks.com/help/compiler/create
 
 **NOTE: Below is the most important**
 
-*(1) Assure no illegal signs in the code, especially that no spaces around "="; 
-*(2) Replace "MCR_ROOT/v92" with the path to the dir where MATLAB compiler runtime (MCR) is installed. For me, it's "/Applications/MATLAB/MATLAB_Runtime/v94". "v92" stands for version 9.2, "v94" stands for version 9.4.
+(1) Assure no illegal signs in the code, especially that no spaces around "="; 
+
+(2) Replace "MCR_ROOT/v92" with the path to the dir where MATLAB compiler runtime (MCR) is installed. For me, it's "/Applications/MATLAB/MATLAB_Runtime/v94". "v92" stands for version 9.2, "v94" stands for version 9.4.
