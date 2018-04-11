@@ -4,6 +4,7 @@ title: "Create Standalone Application from MATLAB (modified)"
 date: 2018-04-11
 ---
 **My platform: macOS High Sierra**
+
 **MATLAB version: R2018a**
 
 
