@@ -14,6 +14,7 @@ The [official guide by MathWorks](https://www.mathworks.com/help/compiler/create
 2. **Cross-platform is not allowed**. To create a standalone which can run on a certain system we should create the standalone on the same type of operating system (OS). For example, "Also to be able to create a standalone which can run on a Linux system you would actually need to create the standalone using MATLAB + MATLAB Compiler for Linux on a Linux machine." (from Mathworks Support).
 
 3. **matlabroot**: it's an object in MATLAB, represent the root directory (dir) of MATLAB. You can check it in Command Window of MATLAB.
+
 ```
 >> matlabroot
 
@@ -23,6 +24,7 @@ The [official guide by MathWorks](https://www.mathworks.com/help/compiler/create
 ```
 
 4. Before **enter magicsquare(5)**, you need to switch to dir of "magicsquare.m", otherwise MATLAB can not call function magicsqaure. Go to Command Window of MATLAB:
+
 ```
 >> cd /Applications/MATLAB_R2018a.app/extern/examples/compiler
 ```
