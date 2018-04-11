@@ -16,14 +16,15 @@ The [official guide by MathWorks](https://www.mathworks.com/help/compiler/create
 3. 
 
 "matlabroot": it's an object in MATLAB, represent the root directory (dir) of MATLAB. You can check it in Command Window of MATLAB.
->> matlabroot
+" >> matlabroot
 
-ans =
+  ans =
 
-    '/Applications/MATLAB_R2018a.app'
+      '/Applications/MATLAB_R2018a.app'
+"
 
 4. Before "enter magicsquare(5)", you need to switch to dir of "magicsquare.m", otherwise MATLAB can not call function magicsqaure. Go to Command Window of MATLAB:
->> cd /Applications/MATLAB_R2018a.app/extern/examples/compiler
+" >> cd /Applications/MATLAB_R2018a.app/extern/examples/compiler "
 
 5. Before "Package", Recommend to choose "Runtime downloaded from web", thus the distribution file could be rather small.
 
