@@ -32,6 +32,6 @@ The [official guide by MathWorks](https://www.mathworks.com/help/compiler/create
 
 8. More tricks:
 
-..* Sometimes running the application in terminal just throw errors which we believe should not happen. In this case, don't hesitate to uninstall the standalone application and delete the distribution files. Then restart your Mac and repeat the way from compiling this app to run it.
+    (1) Sometimes running the application in terminal just throw errors which we believe should not happen. In this case, don't hesitate to uninstall the standalone application and delete the distribution files. Then restart your Mac and repeat the way from compiling this app to run it.
 
-..* Be sure that your MATLAB have installed the toolboxes required to run all the functions in the application. Otherwise, you will get errors when running the app, e.g. "Undefined function or variable 'wavedec3'". This function comes from "Wavelet Toolbox", so go to "MATLAB > Apps > Get more apps > (search) Wavelet Toolbox > install". Then repeat the way from compiling this app to run it.
+    (2) Be sure that your MATLAB have installed the toolboxes required to run all the functions in the application. Otherwise, you will get errors when running the app, e.g. "Undefined function or variable 'wavedec3'". This function comes from "Wavelet Toolbox", so go to "MATLAB > Apps > Get more apps > (search) Wavelet Toolbox > install". Then repeat the way from compiling this app to run it.
