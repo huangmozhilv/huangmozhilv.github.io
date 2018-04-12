@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Supplemnt to "Create Standalone Application from MATLAB" by MathWorks"
+title: "Create Standalone Application from MATLAB for newbies"
 date: 2018-04-11
 ---
 
