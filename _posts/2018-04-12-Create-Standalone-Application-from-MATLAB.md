@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Create Standalone Application from MATLAB for newbies"
-date: 2018-04-11
+date: 2018-04-12
 ---
 
 **My platform: macOS High Sierra**
@@ -10,7 +10,7 @@ date: 2018-04-11
 **MATLAB version: R2018a**
 
 
-The [official guide by MathWorks](https://www.mathworks.com/help/compiler/create-and-install-a-standalone-application-from-matlab-code.html) is almost perfect. However, there are certainly some notes to be clarified for newbies like me :honeybee:.
+The [official guide by MathWorks](https://www.mathworks.com/help/compiler/create-and-install-a-standalone-application-from-matlab-code.html) is almost perfect. However, there are certainly some points to be clarified for newbies like me :honeybee:.
 
 1. MATLAB Compiler is an app named **application compiler** in MATLAB.
 
