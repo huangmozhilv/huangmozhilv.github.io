@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Create Standalone Application from MATLAB (modified)"
+title: "Supplemnt to "Create Standalone Application from MATLAB" by MathWorks"
 date: 2018-04-11
 ---
 
@@ -14,15 +14,17 @@ The [official guide by MathWorks](https://www.mathworks.com/help/compiler/create
 
 1. MATLAB Compiler is an app named **application compiler** in MATLAB.
 
-2. **Cross-platform is not allowed**. To create a standalone which can run on a certain system we should create the standalone on the same type of operating system (OS). For example, "Also to be able to create a standalone which can run on a Linux system you would actually need to create the standalone using MATLAB + MATLAB Compiler for Linux on a Linux machine." (from Mathworks Support).
+2. End-users without MatLab have to install **MATLAB runtime** to run the standalone application. That's why **MATLAB runtime** is accompied with the installer.
 
-3. **matlabroot**: it's an object in MATLAB, representing the root directory (dir) of MATLAB. You can check it in Command Window of MATLAB: `>> matlabroot`, mine returns `ans = '/Applications/MATLAB_R2018a.app' `.
+3. **Cross-platform is not allowed**. To create a standalone which can run on a certain system we should create the standalone on the same type of operating system (OS). For example, "Also to be able to create a standalone which can run on a Linux system you would actually need to create the standalone using MATLAB + MATLAB Compiler for Linux on a Linux machine." (from Mathworks Support).
 
-4. Before **enter magicsquare(5)**, you need to switch to dir of "magicsquare.m", otherwise MATLAB can not call function magicsqaure. Go to Command Window of MATLAB: `>> cd /Applications/MATLAB_R2018a.app/extern/examples/compiler`.
+4. **matlabroot**: it's an object in MATLAB, representing the root directory (dir) of MATLAB. You can check it in Command Window of MATLAB: `>> matlabroot`, mine returns `ans = '/Applications/MATLAB_R2018a.app' `.
 
-5. Before **Package**, recommend to choose "Runtime downloaded from web", thus the distribution file could be rather small.
+5. Before **enter magicsquare(5)**, you need to switch to dir of "magicsquare.m", otherwise MATLAB can not call function magicsqaure. Go to Command Window of MATLAB: `>> cd /Applications/MATLAB_R2018a.app/extern/examples/compiler`.
 
-6. To run the standalone application on Mac OS X, first, in the terminal, change dir to the folder where this application is installed. If everything before was done as default, it should be `cd /Applications/magicsquare`. Second, run `export DYLD_LIBRARY_PATH=MCR_ROOT/v92/runtime/maci64:MCR_ROOT/v92/sys/os/maci64:MCR_ROOT/v92/bin/maci64`.
+6. Before **Package**, recommend to choose "Runtime downloaded from web", thus the distribution file could be rather small.
+
+7. To run the standalone application on Mac OS X, first, in the terminal, change dir to the folder where this application is installed. If everything before was done as default, it should be `cd /Applications/magicsquare`. Second, run `export DYLD_LIBRARY_PATH=MCR_ROOT/v92/runtime/maci64:MCR_ROOT/v92/sys/os/maci64:MCR_ROOT/v92/bin/maci64`.
 
 **NOTE: Below is the most important**
 
