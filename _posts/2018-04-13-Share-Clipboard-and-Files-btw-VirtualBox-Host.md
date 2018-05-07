@@ -44,3 +44,7 @@ Go to Terminal, run `sudo apt-get install virtualbox-guest-utils`.
 ## STEP 5
 
 To access the shared folder as root/superuser, go to Terminal. `cd /media/`, `sudo mount -t vboxsf sharedBothWinLinux /media/sf_sharedBothWinLinux/`. NOTE:`sf_` was prefixed to the shared folder name by default.
+
+## STEP *
+
+In case can't find the shared folder on Linux next time, redo **STEP 5**.
