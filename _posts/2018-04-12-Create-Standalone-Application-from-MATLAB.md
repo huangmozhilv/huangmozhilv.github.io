@@ -10,9 +10,9 @@ comments: true
 
 **OS 2**: Ubuntu 16.0 on VirtualBox
 
-**MATLAB version**: R2018a
+**MATLAB version**: R2018a. To open in Terminal, "~$ /home/chao/MATLAB/R2018a/bin/matlab".
 
-The [official guide by MathWorks](https://www.mathworks.com/help/compiler/create-and-install-a-standalone-application-from-matlab-code.html) is almost perfect. However, there are certainly some points to be clarified for newbies like me :honeybee:.
+The [official guide by MathWorks (Create Standalone Application from MATLAB)](https://www.mathworks.com/help/compiler/create-and-install-a-standalone-application-from-matlab-code.html) is almost perfect. However, there are certainly some points to be clarified for newbies like me :honeybee:.
 
 ## MATLAB Compiler
 
