@@ -36,7 +36,8 @@ Switch to dir of "magicsquare.m", otherwise MATLAB can not call `magicsqaure` fu
 
 ## Before "Package"
 
-Recommend to choose "Runtime downloaded from web", thus the distribution file could be pretty small.
+1. Recommend to choose "Runtime downloaded from web", thus the distribution file could be pretty small.
+2. Recommend: Additional installer options >> Default installation folder:/usr/local. In this case, no root permission required.
 
 ## Run the APP on Mac
 
