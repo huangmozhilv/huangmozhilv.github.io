@@ -68,7 +68,7 @@ Go to Terminal, change dir to where this APP is installed. If everything before 
 2. Make directory to store APP files. "mkdir path/to/app_folder".
 3. "cd path/to/app_folder".
 4. "mcc -m the_function_to_be_compiled.m -a path/to/codes_folder". 
-    
+#### NOTE:
     (1) Sometimes it prompts "mcc is not found" or other errors. It could be that MATALB compiler is installed, just install it. Or it could be the Terminal can't find the path to mcc binary, replace "mcc" as something like "/home/chao/MATLAB/R2018a/bin/mcc".
     (2) "the_function_to_be_compiled.m" is a MATLAB function adapted from the main file. Keep in mind to delete any lines like "clear all" in the function file.
     (3) It's good practice to create a "codes_folder" and copy all ".m" file to this folder. Otherwise, errors are easy to happen.
