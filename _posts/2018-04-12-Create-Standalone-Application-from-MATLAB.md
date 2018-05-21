@@ -56,3 +56,21 @@ Go to Terminal, change dir to where this APP is installed. If everything before 
     
     (3) To build an APP on Linux, install VirtualBox, and install Ubuntu on it. Everything else is very similar, except that the way to run the APP was found different from the offical guide. Go to Terminal, switch to the installation dir, by default, `cd /usr/local/standalone_app_name`, run `./application/run_standalone_app_name.sh MCR_installation_dir [other_arguments_to_the_APP]`.
       -  MCR_installation_dir: No quotation mark. The default installation dir is “/usr/local/MATLAB/MATLAB_Runtime/v94”.
+
+## #2: Create Standalone Application from Command Line
+[Official guide link](https://www.mathworks.com/help/compiler/compile-a-standalone-application-from-the-command-line.html#bt1znig). You can compile standalone applications at the MATLAB® prompt or your system prompt using either of these commands. The APP created in this way does not need installation and can be wrapped into Docker.
+[deploytool](https://www.mathworks.com/help/compiler/deploytool.html) invokes the Application Compiler app to execute a saved compiler project.
+[mcc](https://www.mathworks.com/help/compiler/mcc.html) invokes the MATLAB Compiler™ to compile code at the prompt.
+
+### Chao's steps using mcc
+
+1. Open Terminal.
+2. Make directory to store APP files. "mkdir path/to/app_folder".
+3. "cd path/to/app_folder".
+4. "mcc -m the_function_to_be_compiled.m -a path/to/codes_folder". 
+**NOTE**: 
+
+(1) Sometimes it prompts "mcc is not found" or other errors. It could be that MATALB compiler is installed, just install it. Or it could be the Terminal can't find the path to mcc binary, replace "mcc" as something like "/home/chao/MATLAB/R2018a/bin/mcc".
+(2) "the_function_to_be_compiled.m" is a MATLAB function adapted from the main file. Keep in mind to delete any lines like "clear all" in the function file. 
+(3) It's good practice to create a "codes_folder" and copy all ".m" file to this folder. Otherwise, errors are easy to happen.
+5. To run the APP, "'path/to/app_folder/xxxxx.sh' path/to/install/MATLAB_Runtime/vxx *argument_to_the_function1 *argument_to_the_function2 *argument_to_the_function3...
