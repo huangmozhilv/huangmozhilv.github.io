@@ -18,7 +18,7 @@ With MATLAB, we can package MATLAB scripts (suffix: .m) into a standalone applic
 
 The official guides by MathWorks, [Create Standalone Application from MATLAB GUI](https://www.mathworks.com/help/compiler/create-and-install-a-standalone-application-from-matlab-code.html) and [Create Standalone Application from Command Line](https://www.mathworks.com/help/compiler/compile-a-standalone-application-from-the-command-line.html#bt1znig),are almost perfect. However, there are certainly some points to be clarified for newbies like me :honeybee:.
 
-## Create Standalone Application from MATLAB GUI
+## #1: Create Standalone Application from MATLAB GUI
 ### MATLAB Compiler
 
 This is an application (APP) named **application compiler** in MATLAB.
