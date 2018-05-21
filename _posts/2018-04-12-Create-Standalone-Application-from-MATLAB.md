@@ -73,4 +73,4 @@ Go to Terminal, change dir to where this APP is installed. If everything before 
     (2) "the_function_to_be_compiled.m" is a MATLAB function adapted from the main file. Keep in mind to delete any lines like "clear all" in the function file.
     (3) It's good practice to create a "codes_folder" and copy all ".m" file to this folder. Otherwise, errors are easy to happen.
 
-5. To run the APP, "'path/to/app_folder/xxxxx.sh' path/to/install/MATLAB_Runtime/vxx *argument_to_the_function1 *argument_to_the_function2 *argument_to_the_function3...
+5. To run the APP, "'path/to/app_folder/xxxxx.sh' path/to/install/MATLAB_Runtime/vxx *argument_to_the_function1 *argument_to_the_function2 *argument_to_the_function3..."
