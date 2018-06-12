@@ -6,7 +6,6 @@ tags: [beginners]
 comments: true
 ---
 
-### Data Science入门进阶学习资料汇总
 从零开始学Data Science多少不易，我深有体会。以下是我总结筛选的data science从入门到进阶的经典学习资料，希望减少初学者走弯路，尽快掌握必备技能。按顺序，难度依次递增，流统、实验方向的，拿走R就非常好了。
 
 #### 有问题请查
@@ -17,9 +16,11 @@ comments: true
 4. Communities. e.g. Stackoverflow, CSDN, github.
 
 #### R
+流统、实验方向的，拿走R就非常好了.
 
-1. [Data Science Specialization](https://www.coursera.org/specializations/jhu-data-science) by Roger Peng et al from Johns Hopkins。非常经典的数据分析课程系列，总共9门课。不用担心R小白或统计小白，这个系列会系统地教授如何选择合适的分析方法以及不能再详细的数据分析步骤。
-2. [Tutorial: An example of data analysis using the R environment for statistical computing](http://www.css.cornell.edu/faculty/dgr2/pubs/list.html#pubs_m_R) by DG Rossiter from Cornell。上完Peng的课，刚好拿这个论文实例练手。
+  1. [Data Science Specialization](https://www.coursera.org/specializations/jhu-data-science) by Roger Peng et al from Johns Hopkins。非常经典的数据分析课程系列，总共9门课。不用担心R小白或统计小白，这个系列会系统地教授如何选择合适的分析方法以及不能再详细的数据分析步骤。
+  
+  2. [Tutorial: An example of data analysis using the R environment for statistical computing](http://www.css.cornell.edu/faculty/dgr2/pubs/list.html#pubs_m_R) by DG Rossiter from Cornell。上完Peng的课，刚好拿这个论文实例练手。
 
 #### Machine learning
 
