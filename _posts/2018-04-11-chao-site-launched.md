@@ -6,7 +6,7 @@ tags: [Misc]
 comments: true
 ---
 
-Well, finally got to open my first page. 
+Well, my first page finally comes out. 
 
 ### References to Build This Page
 * Jonathan Mcglone: [Creating and Hosting a Personal Site on GitHub](http://jmcglone.com/guides/github-pages/)
