@@ -32,3 +32,11 @@ comments: true
 1. [Python for beginners](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000) by Xuefeng Liao.学python3版本为主,python2了解即可.python2虽然逐渐退出历史舞台了，但依然有不少代码是用python2写的，有时候难免要去解读。
 2. [Deep learning](https://www.coursera.org/specializations/deep-learning) by Andrew Ng from Stanford.
 
+#### Linux系统操作
+有些程序包含成千上万条代码，普通台式机、笔记本执行时间动不动好几天上月，这时候就有必要将程序转移到服务器运行。服务器一般包含多个CPU、大容量内存，甚至有多个GPU，前面的程序运行时间可缩短至几个小时甚至更快。服务器操作系统一般是Linux，在台式机、笔记本的命令行窗口（Windows是cmd，mac是Terminal）输入命令，进行远程操控。为什么要用命令
+行？因为远程操控的服务器，没有图形界面。Linux语言和Mac的Unix语言基本一致，所以两个系统的命令差不多。Windows则不同。
+
+1. Mac OS X Terminal入门。
+2. Windows cmd入门。
+3. Linux入门.初学者先装个virtual box的虚拟机，然后装个Linux的ubuntu发行版就可以练Linux了。网上教程很多。
+4. Tricky tools for Linux: tmux，必备，我最喜欢的功能是防止因为网络中断而程序中断、分屏；vim，最强的的代码编辑器；[proxchains4](https://www.jianshu.com/p/812f163cb1e2), 用来加快下载速度；anaconda，非常好用的python程序包管理和虚拟环境管理。
