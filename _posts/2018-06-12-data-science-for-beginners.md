@@ -16,7 +16,7 @@ comments: true
 4. Communities. e.g. Stackoverflow, CSDN, github.
 
 #### R
-流统、实验方向的，拿走R就非常好了.
+   流统、实验方向的，拿走R就非常好了.
 1. [Data Science Specialization](https://www.coursera.org/specializations/jhu-data-science) by Roger Peng et al from Johns Hopkins。非常经典的数据分析课程系列，总共9门课。不用担心R小白或统计小白，这个系列会系统地教授如何选择合适的分析方法以及不能再详细的数据分析步骤。
 2.  [Tutorial: An example of data analysis using the R environment for statistical computing](http://www.css.cornell.edu/faculty/dgr2/pubs/list.html#pubs_m_R) by DG Rossiter from Cornell。上完Peng的课，刚好拿这个论文实例练手。
 
