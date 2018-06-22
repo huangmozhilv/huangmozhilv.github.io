@@ -39,4 +39,4 @@ comments: true
 1. Mac用户请进：Mac OS X Terminal入门。
 2. Windows用户请进：Windows cmd入门。
 3. Linux入门.初学者先装个virtual box的虚拟机，然后装个Linux的ubuntu发行版就可以练Linux了。网上教程很多。
-4. Tricky tools for Linux: **tmux**，必备，我最喜欢的功能是防止因为网络中断而程序中断、分屏；**vim**，最强的的代码编辑器；[proxchains4](https://www.jianshu.com/p/812f163cb1e2), 用来加快下载速度；**anaconda**，非常好用的python程序包管理和虚拟环境管理。
+4. Tricky tools for Linux: **tmux**，必备，我最喜欢的功能是防止因为网络中断而程序中断、分屏；**vim**，最强的的代码编辑器；[proxchains4](https://www.jianshu.com/p/812f163cb1e2), 用来加快下载速度；**anaconda**，非常好用的python程序包和虚拟环境管理工具。
