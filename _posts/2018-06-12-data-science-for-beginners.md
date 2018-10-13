@@ -22,7 +22,7 @@ comments: true
 
 #### Machine learning
 
-1. [Machine Learning](https://www.coursera.org/learn/machine-learning) by Andrew Ng from Stanford.
+1. [Machine Learning](https://www.coursera.org/learn/machine-learning) by Andrew Ng from Stanford. (不想学Matlab，代码可以参考爱心人士的python代码哈[seddonr](https://github.com/seddonr/Ng_ML))
 2. 南京大学周志华的西瓜书.
 3. [值得时不时温习的书籍](https://www.zhihu.com/question/22221180).
 
