@@ -77,4 +77,4 @@ Go to Terminal, change dir to where this APP is installed. If everything before 
 
 5. To run the APP, in terminal, >>>'absolute/path/to/app_folder/xxxxx.sh' absolute/path/to/install/MATLAB_Runtime/vxx 'argument1_to_main_function' 'argument2_to_main_function' 'argument3_to_main_function'...
 #### NOTE:
-    (1) Trick to install MATLAB runtime with root privelage. You can install it or just copy the installation folder from one machine to the target machine (both should be the same OS, e.g. Linux) as [instructed by Mathworks](https://www.mathworks.com/help/compiler/install-the-matlab-runtime.html).
+    (1) Trick to install MATLAB runtime without root privelage. You can install it or just copy the installation folder from one machine to the target machine (both should be the same OS, e.g. Linux) as [instructed by Mathworks](https://www.mathworks.com/help/compiler/install-the-matlab-runtime.html).
