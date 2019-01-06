@@ -40,4 +40,4 @@ comments: true
 2. Windows用户请进：Windows 相比cmd，建议装Mobaxterm软件。
 3. Linux入门.初学者先装个virtual box的虚拟机，然后装个Linux的ubuntu发行版就可以练Linux了。网上教程很多。
 4. Tricky tools for Linux: **tmux**，必备，我最喜欢的功能是防止因为网络中断而程序中断、分屏；**vim**，最强的的代码编辑器；[proxchains4](https://www.jianshu.com/p/812f163cb1e2), 用来加快下载速度；**anaconda**，非常好用的python程序包和虚拟环境管理工具；**htop**查看cpu使用情况；**docker**。
-5. Tricky tools for python:**ipdb**; **visdom**; **docker**; **visual studio code** especially the right click-go to definition, peek definition, find all references.
+5. Tricky tools for python:**pdb**; **ipdb**; **tensorboardX(for torch, better than visdom)**; **docker**; **visual studio code** especially the right click-go to definition, peek definition, find all references.
